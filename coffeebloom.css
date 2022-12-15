@@ -13,7 +13,9 @@ body{
 }
 
 .container{
-  
+    max-width: 1180px;
+    margin: 0 auto;
+    display: block;
 }
 
 a, li{
@@ -30,7 +32,7 @@ header, header .container{
 
 header .header_container .header_logo {
     position: absolute;
-    left: 0;
+    left: 70px;
     top: 50%;
     transform: translateY(-50%);
 }
@@ -69,16 +71,25 @@ nav ul li{
 nav ul li a{
     font-size: 18px;
     font-weight: 400;
+    top: 50px;
     color: white;
     text-transform: uppercase;
     padding: 0 20px 0 20px;
 }
 
 /* Header Section */
+
+.hero .container{
+    position: absolute;
+    width: 564px;
+    height: 683px;
+    left: 375px;
+    top: 1289px;
+}
 .hero_expanded{
     background: url("images/hero.jpg")no-repeat top/ cover;
     position: absolute;
-    height: 100%;
+    height: 120%;
     width: 100%
 }
 
@@ -103,16 +114,19 @@ for final hands-on exam*/
 }
 
 #hero .site_name_tag{
+    position: absolute;
+    right: 242px;
+    top: 210px;
 
 }
 
 #hero .site_name_tag h1{
-    font-size: 30px;
+    font-size: 40px;
     font-style: normal;
     font-weight: 400;
     color: #fff;
     font-family: 'Lato';
-    margin: 0;
+    margin: 20px;
     line-height: 58px;
     margin-bottom: 15px;
     white-space: pre-line;
@@ -150,14 +164,15 @@ middle, middle .container{
 
 .middle_container img {
     position: relative;
-    width: 564px;
-    height: 593px;
-    top: 330px;
+    width: 535px;
+    height: 666px;
+    left: 100px;
+    top: 403px;
 }
 
 .middle_container h2 {
     position: relative ;
-    top: 260px;
+    top: 330px;
     white-space: pre-line;
     line-height: 50px;
     font-size: 25px;
@@ -179,12 +194,12 @@ middle, middle .container{
 
 .middle_container h3 {
     position: relative;
-    top: -220px;
+    top: -156px;
     white-space: pre-line;
     line-height: 60px;
     font-size: 25px;
     text-align: right;
-    right: 215px;
+    right: 147px;
 }
 
 /* about */
@@ -208,7 +223,7 @@ about, about.container h4 {
 }
 
 .ABOUT {
-    background-color: #2C3D3F;
+    background: #2C3D3F;
     position: relative;
     z-index: 9;
     padding-block: 100px;
@@ -216,87 +231,28 @@ about, about.container h4 {
 }
 
 .about_container {
-    text-align: left;
+    text-align: right;
 }
 
 .ABOUT .container h4 {
     color: #fff;
-    font-size: 2rem;
+    top: 70px;
+    left: 220px;
+    font-size: 40px;
 }
 
 .ABOUT .container p {
     position: relative;
-    top: 130px;
-    left: -4px;
-    width: 506px;
+    top: 120px;
+    left: 135px;
+    width: 500px;
 }
 
 .ABOUT img {
-
-}
-
-/*footer*/
-
-.footer{
-    margin-top: auto;
-    margin: 80px 0;
-    min-height: 500px;
-    background-color: #2C3D3F;
-}
-.footer .left_container{
-    width: 45%;
-    float: left;
-}
-
-.footer .right_container{
-    width: 45%;
-    float: right;
-}
-
-.footer .left_container h5{
-    font-size: 32px;
-    font-weight: 500;
-    font-family: 'Lato';
-    text-align: left;
-    color: #FFFFFF;
-}
-
-form.footer input[type=text] {
     position: absolute;
-    width: 203px;
-    height: 44.39px;
-    left: 1000px;
-    top: 2314px;
-    background: #fff;
-    border: 1px solid #000000;
-    border-radius: 10px;
-    text-align: center;
-    margin-top: 8px;
+    width: 400px;
+    height: 400px;
+    left: 770px;
+    top: 90px;
 }
-  
-form.footer button {
-    margin-top: 8px;
-    position: absolute;
-    width: 115px;
-    height: 44.39px;
-    left: 1222px;
-    top: 2314px;
-    background: #fff;
-    border: 1px solid #000000;
-    border-radius: 10px;
-    color: #000000
-}
-  
-form.footer button:hover {
-    background:#2C3D3F;
-    color: #000000;
-  }
-  
-form.footer::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
 
-/*instructor john nel lim 
-for final hands-on exam*/
