@@ -1,3 +1,5 @@
+/*instructor john nel lim 
+for final hands-on exam*/
 body{
     font-family: 'Lato';
     /* background: #374A4A; */
@@ -11,9 +13,7 @@ body{
 }
 
 .container{
-    max-width: 1180px;
-    margin: 0 auto;
-    display: block;
+  
 }
 
 a, li{
@@ -93,6 +93,9 @@ nav ul li a{
     background: rgba(0, 0, 0, .3);
 }
 
+/*instructor john nel lim 
+for final hands-on exam*/
+
 #hero{
     position: relative;
     background: transparent;
@@ -100,10 +103,7 @@ nav ul li a{
 }
 
 #hero .site_name_tag{
-    position: absolute;
-    top: 60%;
-    text-align: center;
-    right: 27%;
+
 }
 
 #hero .site_name_tag h1{
@@ -232,10 +232,7 @@ about, about.container h4 {
 }
 
 .ABOUT img {
-    float: right;
-    width: 410px;
-    height: 340px;
-    margin-top: -222px;
+
 }
 
 /*footer*/
@@ -300,3 +297,6 @@ form.footer::after {
     clear: both;
     display: table;
   }
+
+/*instructor john nel lim 
+for final hands-on exam*/
